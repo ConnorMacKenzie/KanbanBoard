@@ -17,9 +17,9 @@ export default class Header extends React.Component {
 const styles = StyleSheet.create({
   headerContainer: {
     paddingTop: 25,
-    height: 75,
+    height: 70,
     alignItems: 'center',
-    backgroundColor: '#D05031',
+    backgroundColor: '#2b7ed1',
   },
   header: {
     fontFamily: 'Futura',
