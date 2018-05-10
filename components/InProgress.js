@@ -1,11 +1,13 @@
 import React from 'react';
-import { StatusBar, StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, View } from 'react-native';
+import Activity from './Activity.js';
 
 export default class InProgress extends React.Component {
   render() {
     return (
       <View style={styles.view_container}>
         <Text style={styles.normal_text}>In Progress:</Text>
+        <Activity text = {"hello"} priority = {1}/>
       </View>
     );
   }
